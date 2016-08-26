@@ -563,14 +563,11 @@ alt="Smiley face" height="300">
 
 
 ```javascript
-
+Referências Bibliográficas
 ```
-
+* [Docs Firebase Google](https://firebase.google.com/docs) .Acesso em 21 de Agosto de 2016.
 
 
 ```javascript
 
 ```
-
-
-
