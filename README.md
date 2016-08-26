@@ -564,9 +564,33 @@ alt="Smiley face" height="300">
 
 ```javascript
 Referências Bibliográficas
-```
-* [Docs Firebase Google](https://firebase.google.com/docs) .Acesso em 21 de Agosto de 2016.
 
+Docs Firebase Google. Disponível em <https://firebase.google.com/docs/> .Acesso em 21 de Agosto de 2016.
+Adicionar o Firebase ao projeto Android. Disponível em <https://firebase.google.com/docs/android/setup>. Acessado em 21 de Agosto de 2016.
+Set up Firebase Realtime Database for Android. Disponível em <https://firebase.google.com/docs/database/android/start/> . Acessado em 21 de Agosto de 2016.
+Adicione o Firebase Storage ao aplicativo. Disponível em <https://firebase.google.com/docs/storage/android/start>. Acessado em 21 de Agosto de 2016.
+Enviar uma notificação para um segmento de usuários. Disponível em <https://firebase.google.com/docs/notifications/android/console-audience>.Acessado em 21 de Agosto de 2016.
+Bibliotecas Firebase. Disponível em <https://firebase.google.com/docs/libraries/> .Acessado em 21 de Agosto de 2016.
+
+Android: Offine image caching with Picasso. Disponível em <https://newfivefour.com/android-image-caching-picasso.html> .Acesso em 21 de Agosto de 2016.
+Picasso — Influencing Image Caching. Disponível em <https://futurestud.io/blog/picasso-influencing-image-caching>. Acessado em 21 de Agosto de 2016.
+Load images from disk cache with Picasso if offline. Disponível em <http://www.unknownerror.org/opensource/square/picasso/q/stackoverflow/23391523/load-images-from-disk-cache-with-picasso-if-offline> . Acessado em 21 de Agosto de 2016.
+Android image loading – Picasso!. Disponível em <http://zeroturnaround.com/rebellabs/picking-my-next-android-image-loading-library-picasso/>. Acessado em 21 de Agosto de 2016.
+
+
+Persistência Realm no Android . Disponível em https://www.youtube.com/playlist?list=PLBA57K2L2RIJz9eAlODBynIfWQgckZaXc. Acessado 25 de Agosto de 2016
+
+Persistência Com Firebase Android. Disponível em https://www.youtube.com/playlist?list=PLBA57K2L2RIJICFUSbL0SPhiYTFDYDQo7. Acessado 25 de Agosto de 2016
+
+
+Android Updated Firebase . Disponível em https://www.youtube.com/playlist?list=PLfBjz1j1UV9m3MofrgMivwaGjRjfhMQfL . Acessado 25 de Agosto de 2016
+
+
+Retrieving Data. Disponível em <https://www.firebase.com/docs/android/guide/retrieving-data.html> .Acesso em 21 de Agosto de 2016.
+How to search for a value in firebase Android. Disponível em <http://stackoverflow.com/questions/34537369/how-to-search-for-a-value-in-firebase-android>. Acessado em 21 de Agosto de 2016.
+How to retrieve specific node from firebase database in android. Disponível em <http://stackoverflow.com/questions/28601663/how-to-retrieve-specific-node-from-firebase-database-in-android > . Acessado em 21 de Agosto de 2016.
+
+```
 
 ```javascript
 
