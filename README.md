@@ -85,6 +85,81 @@ alt="Smiley face" height="500">
 alt="Smiley face" height="500">
 <img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-14.png" 
 alt="Smiley face" height="500">
+<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-13-31.png" 
+alt="Smiley face" height="500">
+<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-20.png" 
+alt="Smiley face" height="500">
+<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-24.png" 
+alt="Smiley face" height="500">
+
+
+Interface e Layouts – INSERIR INFORMAÇÕES
+
+<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-35.png" 
+alt="Smiley face" height="500">
+<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-39.png" 
+alt="Smiley face" height="500">
+
+
+Interface e Layouts – INSERIR INFORMAÇÕES
+
+```javascript
+private static final int RC_UPLOAD_FILE = 102;
+private StorageReference folderRef;
+private TextView mTextView;
+private UploadTask mUploadTask;
+private EditText Nome;
+private EditText DescricaoDoItem;
+private EditText LocalAchado;
+private EditText Email;
+private EditText Telefone;
+private EditText Observacoes;
+private TextView tipoConexaoTextView;
+private DatabaseReference databaseReference;
+private Boolean saved = null;
+private String urlImagem = null;
+
+@Override
+protected void onCreate(Bundle savedInstanceState) [...]
+//Inicializa o Database DB
+databaseReference = FirebaseDatabase.getInstance().getReference();
+helper = new FirebaseHelper(databaseReference);
+uidusuarioPasta = getUid();
+```
+
+
+```javascript
+@Overrideprotected void onCreate(Bundle savedInstanceState) 
+
+[...]
+
+FirebaseStorage storage = FirebaseStorage.getInstance();
+StorageReference storageRef = storage.getReference();
+//folderRef = storageRef.child("photos");//Nome da pasta vai ser o numero do usuario - unicofolderRef = storageRef.child(uidusuarioPasta);
+@Overridepublic void onClick(View view) {
+Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+switch (view.getId()) {
+case R.id.salvarDadosFire:
+getDadosInformados();         
+break;      
+case R.id.button_upload_from_file:
+startActivityForResult(intent, RC_UPLOAD_FILE);         
+break;
+case R.id.button_upload_resume:
+Helper.mProgressDialog.show();
+mUploadTask.resume();         
+break;   }}
+
+
+```
+
+
+
+
+```javascript
+
+```
+
 
 
 
