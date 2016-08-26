@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    tools:context="com.app.encontreibvrr.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <!--
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"/>
+        -->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--
+    <com.app.encontreibvrr.libraryFlycoTabLayout.SlidingTabLayout
+        android:id="@+id/tl_4"
+        android:layout_gravity="bottom|end"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#009688"
+        tl:tl_tab_padding="0dp"
+        tl:tl_tab_width="95dp"
+        tl:tl_textsize="15sp"/>
+    -->
+
+    <com.app.encontreibvrr.libraryFlycoTabLayout.CommonTabLayout
+        android:id="@+id/tl_2"
+        android:layout_gravity="bottom|end"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        tl:tl_iconHeight="23dp"
+        tl:tl_iconWidth="23dp"
+        tl:tl_indicator_color="#2C97DE"
+        tl:tl_indicator_height="0dp"
+        tl:tl_textSelectColor="#2C97DE"
+        tl:tl_textUnselectColor="#66000000"
+        tl:tl_textsize="12sp"
+        tl:tl_underline_color="#DDDDDD"
+        tl:tl_underline_height="1dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

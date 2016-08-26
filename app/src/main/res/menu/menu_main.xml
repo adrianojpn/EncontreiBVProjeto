@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.encontreibvrr.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contaFire"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_MainActivityStorage"
+        android:orderInCategory="100"
+        android:title="Storage"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_MainActivityStorageFire"
+        android:orderInCategory="100"
+        android:title="Storage Firebase"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_UploadActivity"
+        android:orderInCategory="100"
+        android:title="Storage Upload Fire"
+        app:showAsAction="never" />
+
+</menu>

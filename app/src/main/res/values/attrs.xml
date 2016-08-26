@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FabTagLayout">
+        <attr name="tagText" format="string" />
+        <!--<attr name="tagTextSize" format="dimension" />-->
+        <!--<attr name="tagTextColor" format="color" />-->
+    </declare-styleable>
+    <attr name="animationMode">
+        <enum name="fade" value="0"></enum>
+        <enum name="Scale" value="1"></enum>
+        <enum name="bounce" value="2"></enum>
+    </attr>
+    <attr name="position">
+        <enum name="left_top" value="0"></enum>
+        <enum name="left_bottom" value="1"></enum>
+        <enum name="right_top" value="2"></enum>
+        <enum name="right_bottom" value="3"></enum>
+    </attr>
+    <declare-styleable name="FloatingActionButtonPlus">
+        <attr name="animationMode"></attr>
+        <attr name="position"></attr>
+        <attr name="mBackgroundColor" format="color"></attr>
+        <attr name="switchFabIcon" format="reference"></attr>
+        <attr name="switchFabColor" format="color"></attr>
+        <attr name="animationDuration" format="integer"></attr>
+    </declare-styleable>
+
+
+
+    <!-- Lbrary TabLayout -->
+    <!-- indicator -->
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨é¢œè‰² -->
+    <attr name="tl_indicator_color" format="color"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨é«˜åº¦ -->
+    <attr name="tl_indicator_height" format="dimension"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨å›ºå®šå®½åº¦ -->
+    <attr name="tl_indicator_width" format="dimension"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨margin,å½“indicator_widthå¤§äºŽ0,æ— æ•ˆ -->
+    <attr name="tl_indicator_margin_left" format="dimension"/>
+    <attr name="tl_indicator_margin_top" format="dimension"/>
+    <attr name="tl_indicator_margin_right" format="dimension"/>
+    <attr name="tl_indicator_margin_bottom" format="dimension"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨åœ†è§’å¼§åº¦-->
+    <attr name="tl_indicator_corner_radius" format="dimension"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨ä¸Šæ–¹è¿˜æ˜¯ä¸‹æ–¹,åªå¯¹åœ†è§’çŸ©å½¢æœ‰ç”¨-->
+    <attr name="tl_indicator_gravity" format="enum">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨ä¸ºå¸¸è§„|ä¸‰è§’å½¢|èƒŒæ™¯è‰²å—|-->
+    <attr name="tl_indicator_style" format="enum">
+        <enum name="NORMAL" value="0"/>
+        <enum name="TRIANGLE" value="1"/>
+        <enum name="BLOCK" value="2"/>
+    </attr>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨é•¿åº¦ä¸Žtitleä¸€æ ·é•¿,åªæœ‰åœ¨STYLE_NORMALå¹¶ä¸”indicatorWidthå°äºŽé›¶æœ‰æ•ˆ-->
+    <attr name="tl_indicator_width_equal_title" format="boolean"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨æ”¯æŒåŠ¨ç”»-->
+    <attr name="tl_indicator_anim_enable" format="boolean"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨åŠ¨ç”»æ—¶é—´-->
+    <attr name="tl_indicator_anim_duration" format="integer"/>
+    <!-- è®¾ç½®æ˜¾ç¤ºå™¨æ”¯æŒåŠ¨ç”»å›žå¼¹æ•ˆæžœ-->
+    <attr name="tl_indicator_bounce_enable" format="boolean"/>
+
+    <!-- underline -->
+    <!-- è®¾ç½®ä¸‹åˆ’çº¿é¢œè‰² -->
+    <attr name="tl_underline_color" format="color"/>
+    <!-- è®¾ç½®ä¸‹åˆ’çº¿é«˜åº¦ -->
+    <attr name="tl_underline_height" format="dimension"/>
+    <!-- è®¾ç½®ä¸‹åˆ’çº¿ä¸Šæ–¹è¿˜æ˜¯ä¸‹æ–¹-->
+    <attr name="tl_underline_gravity" format="enum">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+
+    <!-- divider -->
+    <!-- è®¾ç½®åˆ†å‰²çº¿é¢œè‰² -->
+    <attr name="tl_divider_color" format="color"/>
+    <!-- è®¾ç½®åˆ†å‰²çº¿å®½åº¦ -->
+    <attr name="tl_divider_width" format="dimension"/>
+    <!-- è®¾ç½®åˆ†å‰²çº¿çš„paddingTopå’ŒpaddingBottom -->
+    <attr name="tl_divider_padding" format="dimension"/>
+
+    <!-- tab -->
+    <!-- è®¾ç½®tabçš„paddingLeftå’ŒpaddingRight -->
+    <attr name="tl_tab_padding" format="dimension"/>
+    <!-- è®¾ç½®tabå¤§å°ç­‰åˆ† -->
+    <attr name="tl_tab_space_equal" format="boolean"/>
+    <!-- è®¾ç½®tabå›ºå®šå¤§å° -->
+    <attr name="tl_tab_width" format="dimension"/>
+
+    <!-- title -->
+    <!-- è®¾ç½®å­—ä½“å¤§å° -->
+    <attr name="tl_textsize" format="dimension"/>
+    <!-- è®¾ç½®å­—ä½“é€‰ä¸­é¢œè‰² -->
+    <attr name="tl_textSelectColor" format="color"/>
+    <!-- è®¾ç½®å­—ä½“æœªé€‰ä¸­é¢œè‰² -->
+    <attr name="tl_textUnselectColor" format="color"/>
+    <!-- è®¾ç½®å­—ä½“åŠ ç²— -->
+    <attr name="tl_textBold" format="boolean"/>
+    <!-- è®¾ç½®å­—ä½“å…¨å¤§å†™ -->
+    <attr name="tl_textAllCaps" format="boolean"/>
+
+    <declare-styleable name="SlidingTabLayout">
+        <!-- indicator -->
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_width_equal_title"/>
+
+        <!-- underline -->
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        <!-- divider -->
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        <!-- title -->
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="CommonTabLayout">
+        <!-- indicator -->
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        <!-- underline -->
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        <!-- divider -->
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        <!-- title -->
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        <!-- icon -->
+        <!-- è®¾ç½®iconå®½åº¦ -->
+        <attr name="tl_iconWidth" format="dimension"/>
+        <!-- è®¾ç½®iconé«˜åº¦ -->
+        <attr name="tl_iconHeight" format="dimension"/>
+        <!-- è®¾ç½®iconæ˜¯å¦å¯è§ -->
+        <attr name="tl_iconVisible" format="boolean"/>
+        <!-- è®¾ç½®iconæ˜¾ç¤ºä½ç½®,å¯¹åº”Gravityä¸­å¸¸é‡å€¼ -->
+        <attr name="tl_iconGravity" format="enum">
+            <enum name="LEFT" value="3"/>
+            <enum name="TOP" value="48"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+        </attr>
+        <!-- è®¾ç½®iconä¸Žæ–‡å­—é—´è· -->
+        <attr name="tl_iconMargin" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SegmentTabLayout">
+        <!-- indicator -->
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        <!-- divider -->
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        <!-- title -->
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        <attr name="tl_bar_color" format="color"/>
+        <attr name="tl_bar_stroke_color" format="color"/>
+        <attr name="tl_bar_stroke_width" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="MsgView">
+        <!-- åœ†è§’çŸ©å½¢èƒŒæ™¯è‰² -->
+        <attr name="mv_backgroundColor" format="color"/>
+        <!-- åœ†è§’å¼§åº¦,å•ä½dp-->
+        <attr name="mv_cornerRadius" format="dimension"/>
+        <!-- åœ†è§’å¼§åº¦,å•ä½dp-->
+        <attr name="mv_strokeWidth" format="dimension"/>
+        <!-- åœ†è§’è¾¹æ¡†é¢œè‰²-->
+        <attr name="mv_strokeColor" format="color"/>
+        <!-- åœ†è§’å¼§åº¦æ˜¯é«˜åº¦ä¸€åŠ-->
+        <attr name="mv_isRadiusHalfHeight" format="boolean"/>
+        <!-- åœ†è§’çŸ©å½¢å®½é«˜ç›¸ç­‰,å–è¾ƒå®½é«˜ä¸­å¤§å€¼-->
+        <attr name="mv_isWidthHeightEqual" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>

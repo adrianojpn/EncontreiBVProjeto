@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "955249609151",
+    "firebase_url": "https://encontreibvrr.firebaseio.com",
+    "project_id": "encontreibvrr",
+    "storage_bucket": "encontreibvrr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955249609151:android:e26b5b2fc12466da",
+        "android_client_info": {
+          "package_name": "com.app.encontreibvrr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955249609151-cvhui5h72oj2pdejbh3fvvm9dktqvm8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.encontreibvrr",
+            "certificate_hash": "9F3EFCABE42D8E962FE44322589318A840438700"
+          }
+        },
+        {
+          "client_id": "955249609151-e9b7p5smf2scp7sfi6qgn0etvec3jf24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.encontreibvrr",
+            "certificate_hash": "5E26A37C199F3EEDDA30960B8F48574315E0E7FA"
+          }
+        },
+        {
+          "client_id": "955249609151-81pm11od2dcdoega102j8mjc7ish27ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT3cuawdaum4VpjFQVOlVAqB4nMS-b46M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955249609151-81pm11od2dcdoega102j8mjc7ish27ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

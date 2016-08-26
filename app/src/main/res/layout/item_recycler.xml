@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/item_prog_cardView"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:clipChildren="false"
+            app:cardBackgroundColor="@color/white"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/item_lianearLaoutBacgroung"
+                    android:layout_weight="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffc400"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nome"
+                        style="@style/TextAppearanceStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="Objeto ou documento perdidos"/>
+
+                    <FrameLayout
+                        android:id="@+id/frame_imagem_pregress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/URL_ImagemPicasso"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerCrop"
+                            android:layout_height="150dp"
+                            android:src="@color/primary_dark"/>
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/localachado"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Local encontrado: "/>
+
+
+                    <TextView
+                        android:id="@+id/telefone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Telefone: "/>
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email: adrianojpn@live.com"/>
+
+
+                    <TextView
+                        android:id="@+id/usuariouid"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="usuario uid"/>
+
+                    <TextView
+                        android:id="@+id/descricadodumento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_add_circle_black"
+                        android:drawableStart="@drawable/ic_add_circle_black"
+                        android:text="DESCRIÇÃO: Atualmente, mais de 50% da população mundial vive em áreas urbanas e estima-se que em 2050 esse valor alcance 70%. Essa alta concentração populacional traz consigo grandes desafios para as cidades em áreas como segurança, transporte, mobilidade, energia, água, saúde, meio ambiente, entre outras."/>
+
+                    <TextView
+                        android:id="@+id/datahora"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="08/08/2016, HH:MM"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

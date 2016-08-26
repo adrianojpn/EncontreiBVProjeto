@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#9f9f9f</color>
+    <color name="colorAccent">#FFA000</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_disabled">#9bffffff</color>
+
+    <color name="colorAccent222">#ffc813</color>
+
+    <color name="conectadoVerde">#2db401</color>
+    <color name="conexaoAguardando">#ffc813</color>
+
+
+    <!--
+    <color name="colorPrimary">#009f7a</color>
+    <color name="colorPrimaryDark">#009f7a</color>
+    <color name="colorAccent">#ffc813</color>
+    -->
+</resources>

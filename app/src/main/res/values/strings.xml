@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Encontrei BV</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_login">ENTRAR</string>
+    <string name="menu_logout">SAIR</string>
+    <string name="login_label">NETRAR</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Senha</string>
+    <string name="send_text">Enviar</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+    <string name="title_sign_in">Bem vindo(a)</string>
+    <string name="sign_up">CRIAR CONTA</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_email">Email</string>
+    <string name="sign_in">ENTRAR</string>
+
+
+    <string name="facebook_app_id">1638343026482910</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="camera_button_text">Upload</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="download">Download</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+    <string name="log_out">Log out</string>
+    <string name="success">Success</string>
+
+    <string name="button_upload">Upload</string>
+    <string name="button_download">Download</string>
+    <string name="delete_file">Delete file</string>
+    <string name="download_in_memory">Download in memory</string>
+    <string name="download_in_file">Download in file</string>
+    <string name="download_via_url">Download via url</string>
+    <string name="upload_from_memory">Upload from memory</string>
+    <string name="upload_from_stream">Upload from stream</string>
+    <string name="upload_from_file">Upload from file</string>
+    <string name="upload_resume">Resume upload</string>
+    <string name="upload_paused">Upload is paused</string>
+    <string name="metadata_get">Get metadata</string>
+    <string name="metadata_update">Update metadata</string>
+    <string name="loading">ENVIANDO IMAGEM</string>
+
+    <string name="loadingPerfil">Carregando informações do Perfil</string>
+
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+    <string name="label_twitter_login">Firebase + Twitter Login</string>
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="label_manage_user">Manage User</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_photo">Photo URL</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="logout">Logout?</string>
+    <string name="anonymous_signin">Anonymous Sign In</string>
+    <string name="account_link">Account Linking</string>
+    <string name="account_link_btn">Link Account</string>
+    <string name="title_provider">User\'s provider</string>
+    <string name="title_profile">User\'s profile</string>
+    <string name="title_update_profile">Update user\'s profile</string>
+    <string name="title_update_email">Update user\'s email</string>
+    <string name="title_update_password">Update user\'s password</string>
+    <string name="title_send_password_reset">Send password reset</string>
+    <string name="title_delete_user">Delete a user</string>
+    <string name="updated">%s updated.</string>
+
+</resources>
