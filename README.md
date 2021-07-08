@@ -57,9 +57,9 @@ Interface e Layouts
 
 A aplicação possui layouts simplificados e intuitivos, com itens de manipulação na tela principal, opções de edição texto e inserção de Imagem.
 
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Logo%20App%2001.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Logo%20App%2001.png" 
 alt="Smiley face" height="150">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Logo%20Gifnigif%2001.gif" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Logo%20Gifnigif%2001.gif" 
 alt="Smiley face" height="150">
 
 Interface e Layouts – Tela de Login
@@ -68,36 +68,36 @@ Autenticação do usuário é realizada por dois métodos:
 - Conta Email
 - Conta do Google
 
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-36-07.png" 
+<img src="https://raw.githubusercontent.com/AdrianoJPN/EncontreiBVProjeto/master/Screenshot/Screenshot_2016-08-24-20-36-07.png" 
 alt="Smiley face" height="400">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-36-56.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-36-56.png" 
 alt="Smiley face" height="400">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-37-04.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-37-04.png" 
 alt="Smiley face" height="400">
 
 Interface e Layouts – Tela de Início
 
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-37-47.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-37-47.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-37-50.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-37-50.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-05.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-05.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-14.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-14.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-13-31.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-13-31.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-20.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-20.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-24.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-24.png" 
 alt="Smiley face" height="500">
 
 
 Interface e Layouts – INSERIR INFORMAÇÕES
 
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-35.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-35.png" 
 alt="Smiley face" height="500">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-39.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-24-20-38-39.png" 
 alt="Smiley face" height="500">
 
 
