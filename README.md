@@ -555,9 +555,9 @@ public class PostViewHolderDocumentoAchados extends RecyclerView.ViewHolder {
     }
 ```
 
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-24.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-24.png" 
 alt="Smiley face" height="300">
-<img src="https://github.com/topicosdcc/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-22.png" 
+<img src="https://github.com/AdrianoJPN/EncontreiBVProjeto/blob/master/Screenshot/Screenshot_2016-08-25-08-18-22.png" 
 alt="Smiley face" height="300">
 
 
